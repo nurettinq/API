@@ -8,11 +8,20 @@ public class JsonTestData {
     //        "id": 1,
     //        "title": "delectus aut autem",
     //        "completed": false
-    public Map<String,Object> expectedData(int userId, String title, Boolean completed){
+    public Map<String,Object> expectedData(Integer userId, String title, Boolean completed){
         Map<String,Object> expectedData=new HashMap<>();
-        expectedData.put("userId",userId);
-        expectedData.put("title",title);
-        expectedData.put("compşeted",completed);
+        if (userId != null) {
+            expectedData.put("userId",userId);
+        }
+
+        if (title != null) {
+            expectedData.put("title", title);
+        }
+            if (completed != null) {
+                expectedData.put("completed", completed);
+            }
+
+
 
         return expectedData;
     }
