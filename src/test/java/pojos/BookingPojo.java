@@ -9,13 +9,13 @@ public class BookingPojo {
     private String additionalneeds;
 
 
-    public BookingPojo(String firstname, String lastname, String additionalsneeds, Boolean depositpaid, Integer totolprice, BookingDatePojo bookingdates) {
+    public BookingPojo(String firstname, String lastname,Integer totolprice, Boolean depositpaid,  BookingDatePojo bookingdates ,String additionalneeds) {
         this.firstname = firstname;
         this.lastname = lastname;
-        this.additionalneeds = additionalsneeds;
-        this.depositpaid = depositpaid;
         this.totalprice = totolprice;
+        this.depositpaid = depositpaid;
         this.bookingdates = bookingdates;
+        this.additionalneeds = additionalneeds;
     }
 
     public BookingPojo() {

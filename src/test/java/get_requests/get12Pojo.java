@@ -38,7 +38,7 @@ public class get12Pojo extends RestfulBaseUrl {
         spec.pathParams("first","booking","second",19);
         //set the expexted data
         BookingDatePojo bookingDatePojo=new BookingDatePojo("2018-01-01","2019-01-01");
-        BookingPojo expectedbookingPojo=new BookingPojo("James","Brown","Breakfast",true,111,bookingDatePojo);
+        BookingPojo expectedbookingPojo=new BookingPojo("James","Brown",111,true,bookingDatePojo,"Breakfast");
         System.out.println(expectedbookingPojo.toString());
 
         Response response=given().spec(spec).when().get("/{first}/{second}");
