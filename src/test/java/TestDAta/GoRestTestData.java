@@ -4,7 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class GoRestTestData {
-
+//{
+//            "meta": null,
+//            "data": {
+//                "id": 2508,
+//                "name": "Sharmila Deshpande VM",
+//                "email": "deshpande_sharmila_vm@becker.name",
+//                "gender": "female",
+//                "status": "active"
+//                 }
+//          }
 
     public Map<String,String> dataKeyMap(String name, String email, String gender, String status){
     Map<String,String > dataKeyMap = new HashMap<>();
