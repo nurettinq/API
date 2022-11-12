@@ -25,4 +25,13 @@ public class JsonTestData {
 
         return expectedData;
     }
+    public String expectedDataInString(Integer userId, String title,Boolean completed) {
+        String json=" {\n" +
+                "                                    \"userId\": "+userId+",\n" +
+                "                                    \"title\": \""+title+"\",\n" +
+                "                                    \"completed\": "+completed+",\n" +
+                "                                    \"id\": 201\n" +
+                "                                    }";
+   return json;
+    }
 }
