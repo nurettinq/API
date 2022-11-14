@@ -1,4 +1,4 @@
-package odev;
+package hw;
 
 import base_url.ReqresBaseUrl;
 import io.restassured.http.ContentType;

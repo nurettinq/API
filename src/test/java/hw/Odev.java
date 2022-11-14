@@ -1,12 +1,10 @@
-package odev;
+package hw;
 
 import base_url.AutoBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;

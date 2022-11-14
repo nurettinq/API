@@ -1,4 +1,4 @@
-package odev;
+package hw;
 
 import TestDAta.ReqreTestDAat;
 import base_url.ReqresBaseUrl;
@@ -10,7 +10,6 @@ import pojos.ReqrePojo;
 import utils.ObjectMapperUtils;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;

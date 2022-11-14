@@ -1,13 +1,11 @@
-package odev;
+package hw;
 
 import TestDAta.ReqreTestDAat;
 import base_url.ReqresBaseUrl;
-import groovy.util.ObservableMap;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
-import pojos.ReqrePojo;
 
 import java.io.IOException;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package odev;
+package hw;
 
 public class HM05 {
 

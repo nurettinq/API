@@ -12,7 +12,7 @@ public class BookingPojo {
     private String additionalneeds;
 
 
-    public BookingPojo(String firstname, String lastname,Integer totolprice, Boolean depositpaid,  BookingDatePojo bookingdates ,String additionalneeds) {
+    public BookingPojo(String firstename, String lastname,Integer totolprice, Boolean depositpaid,  BookingDatePojo bookingdates ,String additionalneeds) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.totalprice = totolprice;
